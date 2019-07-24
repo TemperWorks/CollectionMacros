@@ -1,5 +1,5 @@
 {
-    "name": "temperworks/collection-macros",
+    "name": "temper/collection-macros",
     "type": "library",
     "description": "Laravel Collection Macros",
     "homepage": "https://temper.works",
@@ -9,6 +9,19 @@
             "name": "Orian de Wit",
             "email": "orian@temper.works"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Temper\\CollectionMacros\\Providers\\CollectionMacroServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Temper\\CollectionMacros\\": ""
+        }
+    },
 }
-
