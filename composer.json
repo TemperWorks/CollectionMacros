@@ -1,0 +1,14 @@
+{
+    "name": "temperworks/collection-macros",
+    "type": "library",
+    "description": "Laravel Collection Macros",
+    "homepage": "https://temper.works",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orian de Wit",
+            "email": "orian@temper.works",
+        }
+    ]
+}
+
